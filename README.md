@@ -22,6 +22,11 @@ Disclaimer! Marlin firmware needs to be configured aND CUSTOMIZED by the custome
 - https://www.facebook.com/groups/505736576548648
 - https://www.reddit.com/r/BIGTREETECH/
  
+this branch in for modded  Malyan M200 v2 with SKR mini E3 v2 with z axis and hotend mods currently applied 
+ 
+- https://hackaday.io/project/14823-monoprice-select-mini-maximum-3d-printer-mods
+ 
  ## History
  
  - 18-21th of May - Added BTT SKR Mini E3 v2.0 motherboard firmware and related open source materials.
+ - 7 of september 2021 initial commit for that branch
