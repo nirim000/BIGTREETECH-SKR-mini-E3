@@ -25,6 +25,10 @@ Disclaimer! Marlin firmware needs to be configured aND CUSTOMIZED by the custome
 this branch in for modded  Malyan M200 v2 with SKR mini E3 v2 with z axis and hotend mods currently applied 
  
 - https://hackaday.io/project/14823-monoprice-select-mini-maximum-3d-printer-mods
+
+coresponding TFT FW source 
+
+- https://github.com/nirim000/BIGTREETECH-TouchScreenFirmware
  
  ## History
  
