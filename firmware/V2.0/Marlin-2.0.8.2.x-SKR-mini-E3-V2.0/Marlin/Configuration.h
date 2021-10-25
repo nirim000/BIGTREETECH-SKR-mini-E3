@@ -832,7 +832,7 @@
  * Override with M201
  *                                      X, Y, Z, E0 [, E1[, E2...]]
  */
-#define DEFAULT_MAX_ACCELERATION      { 3000, 3000, 700, 10000 }
+#define DEFAULT_MAX_ACCELERATION      { 2250, 2250, 525, 2250 }
 
 //#define LIMITED_MAX_ACCEL_EDITING     // Limit edit via M201 or LCD to DEFAULT_MAX_ACCELERATION * 2
 #if ENABLED(LIMITED_MAX_ACCEL_EDITING)
@@ -847,9 +847,9 @@
  *   M204 R    Retract Acceleration
  *   M204 T    Travel Acceleration
  */
-#define DEFAULT_ACCELERATION          700    // X, Y, Z and E acceleration for printing moves
-#define DEFAULT_RETRACT_ACCELERATION  700    // E acceleration for retracts
-#define DEFAULT_TRAVEL_ACCELERATION   700    // X, Y, Z acceleration for travel (non printing) moves
+#define DEFAULT_ACCELERATION          525    // X, Y, Z and E acceleration for printing moves
+#define DEFAULT_RETRACT_ACCELERATION  525    // E acceleration for retracts
+#define DEFAULT_TRAVEL_ACCELERATION   525    // X, Y, Z acceleration for travel (non printing) moves
 
 /**
  * Default Jerk limits (mm/s)
@@ -861,9 +861,9 @@
  */
 #define CLASSIC_JERK
 #if ENABLED(CLASSIC_JERK)
-  #define DEFAULT_XJERK 50.0
-  #define DEFAULT_YJERK 50.0
-  #define DEFAULT_ZJERK 15.0
+  #define DEFAULT_XJERK 15.0
+  #define DEFAULT_YJERK 15.0
+  #define DEFAULT_ZJERK 7.25
 
   //#define TRAVEL_EXTRA_XYJERK 0.0     // Additional jerk allowance for all travel moves
 
@@ -873,7 +873,7 @@
   #endif
 #endif
 
-#define DEFAULT_EJERK    61.0  // May be used by Linear Advance
+#define DEFAULT_EJERK    13.5  // May be used by Linear Advance
 
 /**
  * Junction Deviation Factor
