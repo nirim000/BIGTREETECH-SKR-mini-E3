@@ -41,7 +41,7 @@
 //
 // Servos
 //
-#define SERVO0_PIN                          PA1   // SERVOS
+//#define SERVO0_PIN                          PA1   // SERVOS
 
 //
 // Limit Switches
@@ -91,7 +91,7 @@
 //
 // Temperature Sensors
 //
-#define TEMP_0_PIN                          PA0   // Analog Input "TH0"
+#define TEMP_0_PIN                          PA1   // Analog Input "TH0"
 #define TEMP_BED_PIN                        PC3   // Analog Input "TB0"
 
 //
